@@ -1,31 +1,16 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "openlist-apis-page",
+  "name": "openlist-api",
   "main": "src/cfapp.ts",
   "compatibility_date": "2025-05-25",
   "compatibility_flags": [
     "nodejs_compat"
   ],
   "vars": {
-    "MAIN_URLS": "api.example.com",
+    "MAIN_URLS": "api-openlist.skylandstudio.cn",
     "PROXY_API": "",
-    "onedrive_uid": "*****************************",
-    "onedrive_key": "*****************************",
-    "alicloud_uid": "*****************************",
-    "alicloud_key": "*****************************",
-    "baiduyun_uid": "*****************************",
-    "baiduyun_key": "*****************************",
-    "baiduyun_ext": "*****************************",
-    "cloud115_uid": "*****************************",
-    "cloud115_key": "*****************************",
-    "googleui_uid": "*****************************",
-    "googleui_key": "*****************************",
-    "yandexui_uid": "*****************************",
-    "yandexui_key": "*****************************",
-    "dropboxs_uid": "*****************************",
-    "dropboxs_key": "*****************************",
-    "quarkpan_uid": "*****************************",
-    "quarkpan_key": "*****************************",
+    "onedrive_uid": "824a16b7-1512-4804-8011-1b3e90681966",
+    "baiduyun_uid": "120950575"
   },
   "site": {
     "bucket": "./public"
